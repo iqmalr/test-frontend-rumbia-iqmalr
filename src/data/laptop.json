@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "nama": "Lenovo ThinkPad X1 Carbon",
+    "sku": "LENOVO1234",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Lenovo_ThinkPad_X1_Carbon_lvwa0n.jpg",
+    "brand": "Lenovo",
+    "deskripsi": "<p>ThinkPad X1 Carbon adalah laptop ultrabook premium dari Lenovo, dengan desain tipis dan ringan serta performa tangguh untuk bisnis dan profesional.</p>",
+    "variations": [
+      {
+        "nama": "i5 - 8GB RAM",
+        "sku": "LENOVO1234-i5-8GB",
+        "harga_jual": 14000000
+      },
+      {
+        "nama": "i7 - 16GB RAM",
+        "sku": "LENOVO1234-i7-16GB",
+        "harga_jual": 18000000
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nama": "Acer Predator Helios 300",
+    "sku": "ACER5678",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Acer_Predator_Helios_300_htkxx4.jpg",
+    "brand": "Acer",
+    "deskripsi": "<p>Acer Predator Helios 300 adalah laptop gaming dengan kartu grafis Nvidia GeForce dan prosesor Intel Core i7, cocok untuk gamer profesional.</p>",
+    "variations": [
+      {
+        "nama": "i7 - 16GB RAM",
+        "sku": "ACER5678-i7-16GB",
+        "harga_jual": 22000000
+      },
+      {
+        "nama": "i7 - 32GB RAM",
+        "sku": "ACER5678-i7-32GB",
+        "harga_jual": 26000000
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nama": "Asus ROG Strix G15",
+    "sku": "ASUS9101",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Asus_ROG_Strix_G15_eyjlcf.jpg",
+    "brand": "Asus",
+    "deskripsi": "<p>Asus ROG Strix G15 adalah laptop gaming dengan performa tinggi, dilengkapi dengan layar 15 inci dan teknologi refresh rate tinggi.</p>",
+    "variations": [
+      {
+        "nama": "i5 - 8GB RAM",
+        "sku": "ASUS9101-i5-8GB",
+        "harga_jual": 15000000
+      },
+      {
+        "nama": "i7 - 16GB RAM",
+        "sku": "ASUS9101-i7-16GB",
+        "harga_jual": 20000000
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nama": "HP Pavilion x360",
+    "sku": "HP1234PAV",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221029/laptop/HP_Pavilion_x360_ce5xbm.jpg",
+    "brand": "HP",
+    "deskripsi": "<p>HP Pavilion x360 adalah laptop 2-in-1 yang fleksibel, cocok untuk berbagai aktivitas dengan layar sentuh dan kemampuan rotasi 360 derajat.</p>",
+    "variations": [
+      {
+        "nama": "i3 - 4GB RAM",
+        "sku": "HP1234PAV-i3-4GB",
+        "harga_jual": 7000000
+      },
+      {
+        "nama": "i5 - 8GB RAM",
+        "sku": "HP1234PAV-i5-8GB",
+        "harga_jual": 10000000
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nama": "Dell Inspiron 15",
+    "sku": "DELL2345",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Dell_Inspiron_15_klcjoe.jpg",
+    "brand": "Dell",
+    "deskripsi": "<p>Dell Inspiron 15 adalah laptop dengan layar besar 15 inci dan performa stabil untuk pekerjaan sehari-hari, pendidikan, dan hiburan.</p>",
+    "variations": [
+      {
+        "nama": "i3 - 4GB RAM",
+        "sku": "DELL2345-i3-4GB",
+        "harga_jual": 6000000
+      },
+      {
+        "nama": "i5 - 8GB RAM",
+        "sku": "DELL2345-i5-8GB",
+        "harga_jual": 8500000
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nama": "Microsoft Surface Laptop 4",
+    "sku": "MS1234SL4",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Microsoft_Surface_Laptop_4_mqceku.jpg",
+    "brand": "Microsoft",
+    "deskripsi": "<p>Surface Laptop 4 adalah laptop premium dengan layar sentuh 13 inci dan performa tinggi untuk profesional dan kreator konten.</p>",
+    "variations": [
+      {
+        "nama": "i5 - 8GB RAM",
+        "sku": "MS1234SL4-i5-8GB",
+        "harga_jual": 16000000
+      },
+      {
+        "nama": "i7 - 16GB RAM",
+        "sku": "MS1234SL4-i7-16GB",
+        "harga_jual": 20000000
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nama": "Samsung Galaxy Book Pro",
+    "sku": "SAMSUNG5678GP",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Samsung_Galaxy_Book_Pro_luc4ot.jpg",
+    "brand": "Samsung",
+    "deskripsi": "<p>Galaxy Book Pro adalah laptop tipis dan ringan dengan daya tahan baterai lama dan kinerja tinggi, ideal untuk produktivitas sehari-hari.</p>",
+    "variations": [
+      {
+        "nama": "i5 - 8GB RAM",
+        "sku": "SAMSUNG5678GP-i5-8GB",
+        "harga_jual": 12000000
+      },
+      {
+        "nama": "i7 - 16GB RAM",
+        "sku": "SAMSUNG5678GP-i7-16GB",
+        "harga_jual": 16000000
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nama": "MSI GF63 Thin",
+    "sku": "MSI8901GF",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/MSI_GF63_Thin_ffd6ae.jpg",
+    "brand": "MSI",
+    "deskripsi": "<p>MSI GF63 Thin adalah laptop gaming dengan desain tipis, dilengkapi dengan prosesor Intel dan kartu grafis Nvidia untuk performa tinggi dalam gaming.</p>",
+    "variations": [
+      {
+        "nama": "i5 - 8GB RAM",
+        "sku": "MSI8901GF-i5-8GB",
+        "harga_jual": 15000000
+      },
+      {
+        "nama": "i7 - 16GB RAM",
+        "sku": "MSI8901GF-i7-16GB",
+        "harga_jual": 19000000
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nama": "Apple MacBook Pro 13",
+    "sku": "APPLE1234MBP",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Apple_MacBook_Pro_13_ulxwuy.jpg",
+    "brand": "Apple",
+    "deskripsi": "<p>MacBook Pro 13 adalah laptop premium dari Apple dengan chip M1, menawarkan kecepatan dan efisiensi daya luar biasa untuk pengguna profesional.</p>",
+    "variations": [
+      {
+        "nama": "M1 - 8GB RAM",
+        "sku": "APPLE1234MBP-M1-8GB",
+        "harga_jual": 22000000
+      },
+      {
+        "nama": "M1 - 16GB RAM",
+        "sku": "APPLE1234MBP-M1-16GB",
+        "harga_jual": 26000000
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nama": "Razer Blade 15",
+    "sku": "RAZER1234B15",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Razer_Blade_15_wedxq5.jpg",
+    "brand": "Razer",
+    "deskripsi": "<p>Razer Blade 15 adalah laptop gaming premium dengan desain ramping, dilengkapi dengan GPU Nvidia GeForce RTX dan prosesor Intel Core i7.</p>",
+    "variations": [
+      {
+        "nama": "i7 - 16GB RAM",
+        "sku": "RAZER1234B15-i7-16GB",
+        "harga_jual": 28000000
+      },
+      {
+        "nama": "i7 - 32GB RAM",
+        "sku": "RAZER1234B15-i7-32GB",
+        "harga_jual": 32000000
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nama": "Toshiba Dynabook Satellite",
+    "sku": "TOSHIBA9876DS",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Toshiba_Dynabook_Satellite_aowkc8.jpg",
+    "brand": "Toshiba",
+    "deskripsi": "<p>Toshiba Dynabook Satellite adalah laptop terjangkau dengan layar besar, cocok untuk penggunaan kantor dan hiburan ringan.</p>",
+    "variations": [
+      {
+        "nama": "i3 - 4GB RAM",
+        "sku": "TOSHIBA9876DS-i3-4GB",
+        "harga_jual": 5000000
+      },
+      {
+        "nama": "i5 - 8GB RAM",
+        "sku": "TOSHIBA9876DS-i5-8GB",
+        "harga_jual": 7500000
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nama": "Huawei MateBook D 14",
+    "sku": "HUAWEI4567MD",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221029/laptop/Huawei_MateBook_D_14_eskret.jpg",
+    "brand": "Huawei",
+    "deskripsi": "<p>Huawei MateBook D 14 adalah laptop ultra-portabel dengan performa stabil, dilengkapi dengan prosesor AMD Ryzen dan layar full HD.</p>",
+    "variations": [
+      {
+        "nama": "Ryzen 5 - 8GB RAM",
+        "sku": "HUAWEI4567MD-Ryzen5-8GB",
+        "harga_jual": 8000000
+      },
+      {
+        "nama": "Ryzen 7 - 16GB RAM",
+        "sku": "HUAWEI4567MD-Ryzen7-16GB",
+        "harga_jual": 11000000
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nama": "Chuwi HeroBook Pro",
+    "sku": "CHUWI1234HP",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Chuwi_HeroBook_Pro_sj2r2l.jpg",
+    "brand": "Chuwi",
+    "deskripsi": "<p>Chuwi HeroBook Pro adalah laptop budget-friendly dengan spesifikasi dasar untuk penggunaan sehari-hari dan belajar online.</p>",
+    "variations": [
+      {
+        "nama": "Celeron - 4GB RAM",
+        "sku": "CHUWI1234HP-Celeron-4GB",
+        "harga_jual": 4000000
+      },
+      {
+        "nama": "Celeron - 8GB RAM",
+        "sku": "CHUWI1234HP-Celeron-8GB",
+        "harga_jual": 5000000
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nama": "MSI Stealth GS66",
+    "sku": "MSI4567GS",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/MSI_Stealth_GS66_zdxzno.jpg",
+    "brand": "MSI",
+    "deskripsi": "<p>MSI Stealth GS66 adalah laptop gaming dengan desain ramping dan elegan, dilengkapi dengan GPU Nvidia GeForce RTX 30 series untuk performa terbaik.</p>",
+    "variations": [
+      {
+        "nama": "i7 - 16GB RAM",
+        "sku": "MSI4567GS-i7-16GB",
+        "harga_jual": 25000000
+      },
+      {
+        "nama": "i9 - 32GB RAM",
+        "sku": "MSI4567GS-i9-32GB",
+        "harga_jual": 30000000
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nama": "Gigabyte AORUS 15G",
+    "sku": "GIGABYTE1234A15",
+   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221029/laptop/Gigabyte_AORUS_15G_ztqrsn.jpg",
+    "brand": "Gigabyte",
+    "deskripsi": "<p>AORUS 15G adalah laptop gaming dari Gigabyte yang menawarkan performa tinggi dan layar 15 inci dengan refresh rate tinggi.</p>",
+    "variations": [
+      {
+        "nama": "i7 - 16GB RAM",
+        "sku": "GIGABYTE1234A15-i7-16GB",
+        "harga_jual": 23000000
+      },
+      {
+        "nama": "i9 - 32GB RAM",
+        "sku": "GIGABYTE1234A15-i9-32GB",
+        "harga_jual": 27000000
+      }
+    ]
+  }
+]
