@@ -1,9 +1,7 @@
-import AuthPage from "@/components/pages/AuthPage"
+import AuthPage from "@/components/pages/AuthPage";
 
 const Auth = () => {
-  return (
-	<AuthPage/>
-  )
-}
+  return <AuthPage />;
+};
 
-export default Auth
+export default Auth;

@@ -1,13 +1,13 @@
-import SignIn from '../fragments/SignIn'
+import SignIn from "../fragments/SignIn";
 
 const AuthPage = () => {
   return (
-   	<div className="flex justify-center items-center h-screen">
-		<div className="w-96">
-			<SignIn />
-		</div>
-	</div>
-  )
-}
+    <div className="flex h-screen items-center justify-center">
+      <div className="w-96">
+        <SignIn />
+      </div>
+    </div>
+  );
+};
 
-export default AuthPage
+export default AuthPage;

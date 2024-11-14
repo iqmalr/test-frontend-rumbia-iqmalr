@@ -1,9 +1,7 @@
-import { ProductsTable } from '../fragments/ProductsTable'
+import { ProductsTable } from "../fragments/ProductsTable";
 
 const ProductListPage = () => {
-  return (
-    <ProductsTable/>
-  )
-}
+  return <ProductsTable />;
+};
 
-export default ProductListPage
+export default ProductListPage;

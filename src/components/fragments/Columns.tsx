@@ -1,24 +1,20 @@
-import { Button } from "@/components/ui/button"
-import { Checkbox } from "@/components/ui/checkbox"
-import { Product, Variation } from "@/data/type"
-import { ColumnDef } from "@tanstack/react-table"
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Product, Variation } from "@/data/type";
+import { ColumnDef } from "@tanstack/react-table";
+import { ArrowUpDown } from "lucide-react";
+import ActionsCell from "./ActionCell";
 
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
-    DropdownMenuTrigger
-} from "@/components/ui/dropdown-menu"
-import { ArrowUpDown, MoreHorizontal } from "lucide-react"
 
 export const columns: ColumnDef<Product>[] = [
   {
     id: "select",
     header: ({ table }) => (
       <Checkbox
-        checked={table.getIsAllPageRowsSelected() || (table.getIsSomePageRowsSelected() && "indeterminate")}
+        checked={
+          table.getIsAllPageRowsSelected() ||
+          (table.getIsSomePageRowsSelected() && "indeterminate")
+        }
         onCheckedChange={(value) => table.toggleAllPageRowsSelected(!!value)}
         aria-label="Select all"
       />
@@ -44,7 +40,7 @@ export const columns: ColumnDef<Product>[] = [
           Nama Laptop
           <ArrowUpDown />
         </Button>
-      )
+      );
     },
     cell: ({ row }) => <div>{row.getValue("nama")}</div>,
   },
@@ -59,7 +55,7 @@ export const columns: ColumnDef<Product>[] = [
           Brand
           <ArrowUpDown />
         </Button>
-      )
+      );
     },
     cell: ({ row }) => <div>{row.getValue("brand")}</div>,
   },
@@ -67,7 +63,7 @@ export const columns: ColumnDef<Product>[] = [
     accessorKey: "variations",
     header: "Variations",
     cell: ({ row }) => {
-      const variations = row.getValue("variations") as Variation[]
+      const variations = row.getValue("variations") as Variation[];
       return (
         <div>
           {variations.map((variation, index) => (
@@ -76,37 +72,15 @@ export const columns: ColumnDef<Product>[] = [
             </div>
           ))}
         </div>
-      )
+      );
     },
   },
   {
     id: "actions",
     enableHiding: false,
     cell: ({ row }) => {
-      const product = row.original
-
-      return (
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button variant="ghost" className="h-8 w-8 p-0">
-              <span className="sr-only">Open menu</span>
-              <MoreHorizontal />
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="end">
-            <DropdownMenuLabel>Actions</DropdownMenuLabel>
-              <DropdownMenuItem
-              onClick={() => navigator.clipboard.writeText(product.id.toString())}
-            >
-              Copy Product ID
-            </DropdownMenuItem>
-            <DropdownMenuSeparator />
-            <DropdownMenuItem>View</DropdownMenuItem>
-            <DropdownMenuItem>Edit</DropdownMenuItem>
-            <DropdownMenuItem>Delete</DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-      )
+      const product = row.original;
+      return <ActionsCell product={product} />;
     },
   },
-]
+];

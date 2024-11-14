@@ -12,7 +12,7 @@ function EachUtils<D>({
       {Children.toArray(
         of.map((item, index) => {
           return render(item, index);
-        })
+        }),
       )}
     </>
   );

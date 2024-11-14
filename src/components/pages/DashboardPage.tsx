@@ -1,11 +1,11 @@
-import Chart from '../fragments/Chart'
+import Chart from "../fragments/Chart";
 
 const DashboardPage = () => {
   return (
-    <div className="w-full h-screen p-4">
-      <Chart/>
+    <div className="h-screen w-full p-4">
+      <Chart />
     </div>
-  )
-}
+  );
+};
 
-export default DashboardPage
+export default DashboardPage;

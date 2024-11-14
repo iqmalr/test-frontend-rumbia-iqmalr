@@ -3,7 +3,7 @@
     "id": 1,
     "nama": "Lenovo ThinkPad X1 Carbon",
     "sku": "LENOVO1234",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Lenovo_ThinkPad_X1_Carbon_lvwa0n.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Lenovo_ThinkPad_X1_Carbon_lvwa0n.jpg",
     "brand": "Lenovo",
     "deskripsi": "<p>ThinkPad X1 Carbon adalah laptop ultrabook premium dari Lenovo, dengan desain tipis dan ringan serta performa tangguh untuk bisnis dan profesional.</p>",
     "variations": [
@@ -23,7 +23,7 @@
     "id": 2,
     "nama": "Acer Predator Helios 300",
     "sku": "ACER5678",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Acer_Predator_Helios_300_htkxx4.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Acer_Predator_Helios_300_htkxx4.jpg",
     "brand": "Acer",
     "deskripsi": "<p>Acer Predator Helios 300 adalah laptop gaming dengan kartu grafis Nvidia GeForce dan prosesor Intel Core i7, cocok untuk gamer profesional.</p>",
     "variations": [
@@ -43,7 +43,7 @@
     "id": 3,
     "nama": "Asus ROG Strix G15",
     "sku": "ASUS9101",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Asus_ROG_Strix_G15_eyjlcf.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Asus_ROG_Strix_G15_eyjlcf.jpg",
     "brand": "Asus",
     "deskripsi": "<p>Asus ROG Strix G15 adalah laptop gaming dengan performa tinggi, dilengkapi dengan layar 15 inci dan teknologi refresh rate tinggi.</p>",
     "variations": [
@@ -63,7 +63,7 @@
     "id": 4,
     "nama": "HP Pavilion x360",
     "sku": "HP1234PAV",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221029/laptop/HP_Pavilion_x360_ce5xbm.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221029/laptop/HP_Pavilion_x360_ce5xbm.jpg",
     "brand": "HP",
     "deskripsi": "<p>HP Pavilion x360 adalah laptop 2-in-1 yang fleksibel, cocok untuk berbagai aktivitas dengan layar sentuh dan kemampuan rotasi 360 derajat.</p>",
     "variations": [
@@ -83,7 +83,7 @@
     "id": 5,
     "nama": "Dell Inspiron 15",
     "sku": "DELL2345",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Dell_Inspiron_15_klcjoe.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Dell_Inspiron_15_klcjoe.jpg",
     "brand": "Dell",
     "deskripsi": "<p>Dell Inspiron 15 adalah laptop dengan layar besar 15 inci dan performa stabil untuk pekerjaan sehari-hari, pendidikan, dan hiburan.</p>",
     "variations": [
@@ -103,7 +103,7 @@
     "id": 6,
     "nama": "Microsoft Surface Laptop 4",
     "sku": "MS1234SL4",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Microsoft_Surface_Laptop_4_mqceku.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Microsoft_Surface_Laptop_4_mqceku.jpg",
     "brand": "Microsoft",
     "deskripsi": "<p>Surface Laptop 4 adalah laptop premium dengan layar sentuh 13 inci dan performa tinggi untuk profesional dan kreator konten.</p>",
     "variations": [
@@ -123,7 +123,7 @@
     "id": 7,
     "nama": "Samsung Galaxy Book Pro",
     "sku": "SAMSUNG5678GP",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Samsung_Galaxy_Book_Pro_luc4ot.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Samsung_Galaxy_Book_Pro_luc4ot.jpg",
     "brand": "Samsung",
     "deskripsi": "<p>Galaxy Book Pro adalah laptop tipis dan ringan dengan daya tahan baterai lama dan kinerja tinggi, ideal untuk produktivitas sehari-hari.</p>",
     "variations": [
@@ -143,7 +143,7 @@
     "id": 8,
     "nama": "MSI GF63 Thin",
     "sku": "MSI8901GF",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/MSI_GF63_Thin_ffd6ae.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/MSI_GF63_Thin_ffd6ae.jpg",
     "brand": "MSI",
     "deskripsi": "<p>MSI GF63 Thin adalah laptop gaming dengan desain tipis, dilengkapi dengan prosesor Intel dan kartu grafis Nvidia untuk performa tinggi dalam gaming.</p>",
     "variations": [
@@ -163,7 +163,7 @@
     "id": 9,
     "nama": "Apple MacBook Pro 13",
     "sku": "APPLE1234MBP",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Apple_MacBook_Pro_13_ulxwuy.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Apple_MacBook_Pro_13_ulxwuy.jpg",
     "brand": "Apple",
     "deskripsi": "<p>MacBook Pro 13 adalah laptop premium dari Apple dengan chip M1, menawarkan kecepatan dan efisiensi daya luar biasa untuk pengguna profesional.</p>",
     "variations": [
@@ -183,7 +183,7 @@
     "id": 10,
     "nama": "Razer Blade 15",
     "sku": "RAZER1234B15",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Razer_Blade_15_wedxq5.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Razer_Blade_15_wedxq5.jpg",
     "brand": "Razer",
     "deskripsi": "<p>Razer Blade 15 adalah laptop gaming premium dengan desain ramping, dilengkapi dengan GPU Nvidia GeForce RTX dan prosesor Intel Core i7.</p>",
     "variations": [
@@ -203,7 +203,7 @@
     "id": 11,
     "nama": "Toshiba Dynabook Satellite",
     "sku": "TOSHIBA9876DS",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Toshiba_Dynabook_Satellite_aowkc8.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Toshiba_Dynabook_Satellite_aowkc8.jpg",
     "brand": "Toshiba",
     "deskripsi": "<p>Toshiba Dynabook Satellite adalah laptop terjangkau dengan layar besar, cocok untuk penggunaan kantor dan hiburan ringan.</p>",
     "variations": [
@@ -223,7 +223,7 @@
     "id": 12,
     "nama": "Huawei MateBook D 14",
     "sku": "HUAWEI4567MD",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221029/laptop/Huawei_MateBook_D_14_eskret.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221029/laptop/Huawei_MateBook_D_14_eskret.jpg",
     "brand": "Huawei",
     "deskripsi": "<p>Huawei MateBook D 14 adalah laptop ultra-portabel dengan performa stabil, dilengkapi dengan prosesor AMD Ryzen dan layar full HD.</p>",
     "variations": [
@@ -243,7 +243,7 @@
     "id": 13,
     "nama": "Chuwi HeroBook Pro",
     "sku": "CHUWI1234HP",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Chuwi_HeroBook_Pro_sj2r2l.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/Chuwi_HeroBook_Pro_sj2r2l.jpg",
     "brand": "Chuwi",
     "deskripsi": "<p>Chuwi HeroBook Pro adalah laptop budget-friendly dengan spesifikasi dasar untuk penggunaan sehari-hari dan belajar online.</p>",
     "variations": [
@@ -263,7 +263,7 @@
     "id": 14,
     "nama": "MSI Stealth GS66",
     "sku": "MSI4567GS",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/MSI_Stealth_GS66_zdxzno.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221028/laptop/MSI_Stealth_GS66_zdxzno.jpg",
     "brand": "MSI",
     "deskripsi": "<p>MSI Stealth GS66 adalah laptop gaming dengan desain ramping dan elegan, dilengkapi dengan GPU Nvidia GeForce RTX 30 series untuk performa terbaik.</p>",
     "variations": [
@@ -283,7 +283,7 @@
     "id": 15,
     "nama": "Gigabyte AORUS 15G",
     "sku": "GIGABYTE1234A15",
-   "gambar":"https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221029/laptop/Gigabyte_AORUS_15G_ztqrsn.jpg",
+    "gambar": "https://res.cloudinary.com/dr79rpzsv/image/upload/v1731221029/laptop/Gigabyte_AORUS_15G_ztqrsn.jpg",
     "brand": "Gigabyte",
     "deskripsi": "<p>AORUS 15G adalah laptop gaming dari Gigabyte yang menawarkan performa tinggi dan layar 15 inci dengan refresh rate tinggi.</p>",
     "variations": [

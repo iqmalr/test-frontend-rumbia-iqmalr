@@ -1,13 +1,11 @@
-import { SideBar } from '@/components/fragments/SideBar';
+import { SideBar } from "@/components/fragments/SideBar";
 
-const DashboardLayout = ({ children }: Readonly<{
+const DashboardLayout = ({
+  children,
+}: Readonly<{
   children: React.ReactNode;
 }>) => {
-  return (
-
-    <SideBar>{children}</SideBar>
-
-  );
+  return <SideBar>{children}</SideBar>;
 };
 
 export default DashboardLayout;

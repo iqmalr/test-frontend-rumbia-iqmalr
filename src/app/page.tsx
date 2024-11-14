@@ -4,12 +4,20 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-10 h-screen w-full items-center justify-center">
+    <div className="flex h-screen w-full flex-col items-center justify-center gap-10">
       <Card className="w-1/2">
         <CardHeader>Login</CardHeader>
-        <CardContent>Untuk login, Anda tidak perlu memasukkan apa pun. Cukup tekan tombol login dan Anda langsung dapat mengakses aplikasi.</CardContent>
+        <CardContent>
+          Untuk login, Anda tidak perlu memasukkan apa pun. Cukup tekan tombol
+          login dan Anda langsung dapat mengakses aplikasi.
+        </CardContent>
         <CardHeader>Dashboard</CardHeader>
-        <CardContent>Di bagian ini, saya telah menyediakan card untuk menampilkan data dan tabel untuk manipulasi data. Namun, fitur ini belum berfungsi sepenuhnya karena masih dalam tahap pengembangan dan hanya menggunakan data dummy untuk tampilan saja.</CardContent>
+        <CardContent>
+          Di bagian ini, saya telah menyediakan card untuk menampilkan data dan
+          tabel untuk manipulasi data. Namun, fitur ini belum berfungsi
+          sepenuhnya karena masih dalam tahap pengembangan dan hanya menggunakan
+          data dummy untuk tampilan saja.
+        </CardContent>
       </Card>
       <Button>
         <Link href={"/auth"}>Login</Link>

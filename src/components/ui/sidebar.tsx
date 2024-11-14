@@ -19,7 +19,7 @@ interface SidebarContextProps {
 }
 
 const SidebarContext = createContext<SidebarContextProps | undefined>(
-  undefined
+  undefined,
 );
 
 export const useSidebar = () => {
@@ -90,8 +90,8 @@ export const DesktopSidebar = ({
     <>
       <motion.div
         className={cn(
-          "h-full px-4 py-4 hidden md:flex md:flex-col bg-neutral-100 dark:bg-neutral-800 w-[300px] flex-shrink-0",
-          className
+          "hidden h-full w-[300px] flex-shrink-0 bg-neutral-100 px-4 py-4 dark:bg-neutral-800 md:flex md:flex-col",
+          className,
         )}
         animate={{
           width: animate ? (open ? "300px" : "60px") : "300px",
@@ -116,11 +116,11 @@ export const MobileSidebar = ({
     <div
       // hidden flex
       className={cn(
-        " flex-col hidden bg-neutral-100 dark:bg-neutral-800 w-full"
+        "hidden w-full flex-col bg-neutral-100 dark:bg-neutral-800",
       )}
       {...props}
     >
-      <div className="flex justify-end z-20 w-full p-4">
+      <div className="z-20 flex w-full justify-end p-4">
         <IconMenu2
           className="text-neutral-800 dark:text-neutral-200"
           onClick={() => setOpen(!open)}
@@ -137,11 +137,11 @@ export const MobileSidebar = ({
               ease: "easeInOut",
             }}
             className={cn(
-              "fixed inset-0 bg-white dark:bg-neutral-900 z-[100] flex flex-col",
-              className
+              "fixed inset-0 z-[100] flex flex-col bg-white dark:bg-neutral-900",
+              className,
             )}
           >
-            <div className="flex justify-between items-center p-4 border-b border-gray-200 dark:border-gray-700">
+            <div className="flex items-center justify-between border-b border-gray-200 p-4 dark:border-gray-700">
               <h2 className="text-lg font-semibold">Menu</h2>
               <IconX
                 className="text-neutral-800 dark:text-neutral-200"
@@ -170,8 +170,8 @@ export const SidebarLink = ({
     <Link
       href={link.href}
       className={cn(
-        "flex items-center justify-start gap-2  group/sidebar py-2",
-        className
+        "group/sidebar flex items-center justify-start gap-2 py-2",
+        className,
       )}
       {...props}
     >
@@ -182,7 +182,7 @@ export const SidebarLink = ({
           display: animate ? (open ? "inline-block" : "none") : "inline-block",
           opacity: animate ? (open ? 1 : 0) : 1,
         }}
-        className="text-neutral-700 dark:text-neutral-200 text-sm group-hover/sidebar:translate-x-1 transition duration-150 whitespace-pre inline-block !p-0 !m-0"
+        className="!m-0 inline-block whitespace-pre !p-0 text-sm text-neutral-700 transition duration-150 group-hover/sidebar:translate-x-1 dark:text-neutral-200"
       >
         {link.label}
       </motion.span>
